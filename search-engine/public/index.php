@@ -32,7 +32,8 @@
   <h3>Find a product:</h3>
 
   <form name="search" action="search.php" method="post">
-    <input autofocus class="form-control" type="text" name="keyword" placeholder="Name of the product" > <br /><input type="submit" name="submit" onClick="validator()" class="btn btn-success" value="Search" />
+    <input autofocus class="form-control" type="text" name="keyword" placeholder="Name of the product" > <br />
+    <input type="submit" name="submit" onClick="validator()" class="btn btn-success" value="Search" />
   </form>
   <script type="text/javascript">
   function validator() {
